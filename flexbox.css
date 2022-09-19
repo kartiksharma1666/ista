@@ -1,0 +1,28 @@
+.parent>div{
+    background-color: #ebd80d;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 76px;
+    
+    
+}
+body{
+    text-align: center;
+    background-color: bisque;
+}
+div{
+    text-align: center;
+    background-color: aquamarine;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /* justify-content: space-around;*/
+   align-items: flex-start;
+}
+#five{
+    flex-grow: 5;
+}

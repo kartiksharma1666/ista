@@ -1,0 +1,8 @@
+body{
+    background-color: antiquewhite;
+}
+.lorem>p:hover {
+    color: aqua;
+    cursor: pointer;
+    
+}
